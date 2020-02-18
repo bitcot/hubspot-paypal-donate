@@ -1,0 +1,44 @@
+[ {
+  "id" : "93b79de6-1d99-78cb-9232-84e53ee146d4",
+  "name" : "paypal_url",
+  "label" : "Paypal Url",
+  "required" : true,
+  "locked" : false,
+  "display" : "radio",
+  "choices" : [ [ "https://www.paypal.com/cgi-bin/webscr", "Production" ], [ "https://www.sandbox.paypal.com/cgi-bin/webscr", "Sandbox" ] ],
+  "type" : "choice",
+  "default" : "https://www.sandbox.paypal.com/cgi-bin/webscr"
+}, {
+  "id" : "d464ebd6-0b86-1b9c-2aa6-9cb545f7b16d",
+  "name" : "item_name",
+  "label" : "Item Name",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "donate"
+}, {
+  "id" : "d8d2b2e3-ff31-7c92-c32c-b8748f526043",
+  "name" : "bussiness_email_address",
+  "label" : "Bussiness Email Address",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "bitcot.test@gmail.com"
+}, {
+  "id" : "3c8ed75d-febd-c298-446c-84a27ba2f320",
+  "name" : "amount",
+  "label" : "Amount",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "25"
+} ]
